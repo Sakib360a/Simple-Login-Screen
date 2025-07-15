@@ -62,7 +62,9 @@ flutter run
 
 ## 🖼️ UI Preview
 
-![screenshot](https://user-images.githubusercontent.com/placeholder.png)
+![screenshot](https://postimg.cc/SnMfyfHK][img]https://i.postimg.cc/SnMfyfHK/Password-Field.png
+https://postimg.cc/B8fct1GB][img]https://i.postimg.cc/B8fct1GB/Phone-numer-field.png
+https://postimg.cc/3yjjGJ85][img]https://i.postimg.cc/3yjjGJ85/Simple-Screen.png)
 
 ---
 
