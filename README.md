@@ -67,8 +67,15 @@ flutter run
 <div align="center">
 
   <figure>
+    <img src="https://drive.google.com/uc?export=view&id=1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa" width="300"/>
+    <figcaption>🔘Login Screen</figcaption>
+  </figure>
+
+  <br>
+
+  <figure>
     <img src="https://drive.google.com/uc?export=view&id=19-B2Z9oI5wcYX-LyDtxAdf-mAxmSIVhu" width="300"/>
-    <figcaption>🔘 Login Screen</figcaption>
+    <figcaption>🔘 Password Field</figcaption>
   </figure>
 
   <br>
@@ -76,13 +83,6 @@ flutter run
   <figure>
     <img src="https://drive.google.com/uc?export=view&id=1yqJ4BH3pyDu2oF0tujO-lTowoTDBfRrG" width="300"/>
     <figcaption>📋 Phone Number Field</figcaption>
-  </figure>
-
-  <br>
-
-  <figure>
-    <img src="https://drive.google.com/uc?export=view&id=1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa" width="300"/>
-    <figcaption>⚙️ Password Field</figcaption>
   </figure>
 
 </div>
