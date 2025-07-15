@@ -62,7 +62,7 @@ flutter run
 
 ## 🖼️ UI Preview
 
-![screenshot](https://drive.google.com/file/d/1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa/view?usp=sharing)
+![screenshot](https://drive.google.com/uc?export=view&id=1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa)
 
 ---
 
