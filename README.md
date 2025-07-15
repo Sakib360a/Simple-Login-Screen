@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWVkYTQ3NDI2MjNkMmQ3ZjcwNGNiZmYwYzRjZWZhYWEzOTg1NzcxMSZjdD1n/A06bO4Xs4GzYro3Ixi/giphy.gif" width="320"/>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWF2dHl6dzMxeTJ5bjZ2ZWhhNDlwbDF4c25mcGFkcnQ0YzcyY29vZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ENY5vJgJPEfG3Ym14H/giphy.gif" width="320"/>
 </div>
 
 ---
@@ -62,9 +62,9 @@ flutter run
 
 ## 🖼️ UI Preview
 
-![screenshot](https://postimg.cc/SnMfyfHK][img]https://i.postimg.cc/SnMfyfHK/Password-Field.png
-https://postimg.cc/B8fct1GB][img]https://i.postimg.cc/B8fct1GB/Phone-numer-field.png
-https://postimg.cc/3yjjGJ85][img]https://i.postimg.cc/3yjjGJ85/Simple-Screen.png)
+![screenshot](https://drive.google.com/file/d/1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa/view?usp=sharing
+https://drive.google.com/file/d/19-B2Z9oI5wcYX-LyDtxAdf-mAxmSIVhu/view?usp=sharing
+https://drive.google.com/file/d/1yqJ4BH3pyDu2oF0tujO-lTowoTDBfRrG/view?usp=sharing)
 
 ---
 
