@@ -63,29 +63,24 @@ flutter run
 ## 🖼️ UI Preview
 
 ## 🖼 UI Preview
+## 🖼 UI Preview
 
-<div align="center">
-
-  <figure>
-    <img src="https://drive.google.com/uc?export=view&id=1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa" width="300"/><br>
-    <figcaption>🔘Login Screen</figcaption>
-  </figure>
-
-  <br>
-
-  <figure>
-    <img src="https://drive.google.com/uc?export=view&id=19-B2Z9oI5wcYX-LyDtxAdf-mAxmSIVhu" width="300"/><br>
-    <figcaption>📋 Phone Number Field</figcaption>
-  </figure>
-
-  <br>
-
-  <figure>
-    <img src="https://drive.google.com/uc?export=view&id=1yqJ4BH3pyDu2oF0tujO-lTowoTDBfRrG" width="300"/><br>
-    <figcaption>🔘 Password Field</figcaption>
-  </figure>
-
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1STm7lCxQ0LKWDHMKMIxIsUmN4VF1AULa" width="250"/><br>
+      🔘 Login Screen
+    </td>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=19-B2Z9oI5wcYX-LyDtxAdf-mAxmSIVhu" width="250"/><br>
+      📋 Phone Number Field
+    </td>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1yqJ4BH3pyDu2oF0tujO-lTowoTDBfRrG" width="250"/><br>
+      🔘 Password Field
+    </td>
+  </tr>
+</table>
 
 ---
 
