@@ -4,7 +4,7 @@
 ## ✨ Flutter Login Screen UI
 
 ![Flutter](https://img.shields.io/badge/Flutter-Dart-blue.svg)
-![Status](https://img.shields.io/badge/Ready-to-Use-brightgreen.svg)
+![Ready to Use](https://img.shields.io/badge/Ready--to--Use-brightgreen?style=for-the-badge&logo=check-circle)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 <div align="center">
