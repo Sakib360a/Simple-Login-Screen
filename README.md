@@ -95,7 +95,9 @@ flutter run
 ## 👨‍💻 Author
 
 Crafted with ❤️ by Abu  
-[GitHub](#) • [Twitter](#) • [LinkedIn](#)
+- [GitHub](https://github.com/Sakib360a)  
+- [Twitter](https://x.com/abubakkarsakib6)  
+- [LinkedIn](https://www.linkedin.com/in/abu-bakkar-siddique-sakib-374a38251/)
 
 ---
 
