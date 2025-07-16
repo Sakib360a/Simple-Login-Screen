@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
@@ -29,7 +28,7 @@ class LoginScreen extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
-                child:Text("Welcome Back",textAlign: TextAlign.center,style: TextStyle(fontSize: 40, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold, color: Colors.teal,))),
+                child:Text("Welcome Back",textAlign: TextAlign.center,style: TextStyle(fontSize: 40, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold, color: Colors.teal,))), //Welcome back Text
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20, top: 40),
                 child: TextField(
@@ -50,7 +49,7 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 24),
                   keyboardType: TextInputType.phone,
                 ),
-              ),
+              ), //Phone Number TextField
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
                 child: TextField(
@@ -71,9 +70,22 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 24),
                   keyboardType: TextInputType.visiblePassword,
                 ),
-              ),
+              ), //Password TextField
               Padding(
-                padding: EdgeInsets.only(left: 20, right: 20, top: 30),
+                  padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                  child:
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text("Not a registered user ?"),
+                        TextButton(onPressed: (){
+                        }, child: Text("Register")),
+                      ],
+                    ),
+
+              ), //Not a registered user ? Register
+              Padding(
+                padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                 child: SizedBox(
                   width: double.infinity,
                   height: 65,
@@ -119,7 +131,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
+              ), //Login Button
               Padding(
                 padding: EdgeInsets.only(left: 20, right: 20, top: 30),
                 child: SizedBox(
@@ -147,7 +159,8 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
+              ), //Clear Button
+
             ],
           ),
         ),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-class SignupScreen extends StatelessWidget {
-  const SignupScreen({super.key});
+class DarkSignupScreenPassword extends StatelessWidget {
+  const DarkSignupScreenPassword({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +14,7 @@ class SignupScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                "Sign Up",
+                "Set Password",
                 style: TextStyle(
                   fontFamily: 'OpenSans',
                   fontSize: 32,
@@ -27,14 +26,13 @@ class SignupScreen extends StatelessWidget {
                 alignment: Alignment.topLeft,
                 padding: EdgeInsets.only(top: 30, left: 24),
                 child: Text(
-                  "Full Name",
+                  "New Password",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
-                    fontWeight: FontWeight.w400,
                   ),
                 ),
-              ), //Full Name
+              ), //New Password
               SizedBox(height: 15), //Gap
               Container(
                 padding: EdgeInsets.only(left: 6, right: 6),
@@ -59,9 +57,9 @@ class SignupScreen extends StatelessWidget {
                     ),
                     filled: true,
                     fillColor: Color(0xFF2B3037),
-                    hintText: "Enter full name",
+                    hintText: "New password",
                     hintStyle: TextStyle(
-                      fontSize: 22,
+                      fontSize: 20,
                       color: Color(0xFF7D8A95),
                     ),
                     border: OutlineInputBorder(
@@ -70,19 +68,18 @@ class SignupScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-              ), //Enter full name field
+              ), //New password hintText
               Container(
                 alignment: Alignment.topLeft,
                 padding: EdgeInsets.only(top: 18, left: 24), // or even less
                 child: Text(
-                  "Email Address",
+                  "Confirm Password",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
-                    fontWeight: FontWeight.w400,
                   ),
                 ),
-              ), //Email Address
+              ), //Confirm Password
               SizedBox(height: 15),
               Container(
                 padding: EdgeInsets.only(left: 6, right: 6),
@@ -106,9 +103,9 @@ class SignupScreen extends StatelessWidget {
                     ),
                     filled: true,
                     fillColor: Color(0xFF2B3037),
-                    hintText: "Enter email address",
+                    hintText: "Confirm password",
                     hintStyle: TextStyle(
-                      fontSize: 22,
+                      fontSize: 20,
                       color: Color(0xFF7D8A95),
                     ),
                     border: OutlineInputBorder(
@@ -117,7 +114,7 @@ class SignupScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-              ), //Enter email address field
+              ), //Confirm password hintText
               SizedBox(height: 15),
               Container(
                 alignment: Alignment.center,
@@ -195,20 +192,20 @@ class SignupScreen extends StatelessWidget {
                   ),
                 ),
 
-              ),
+              ), //Dividers
               SizedBox(height: 25,),
               Container(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                  Container(
-                    width: 60,
-                    height: 60,
-                      decoration: BoxDecoration(
-                        color: Color(0xFF37373C),
-                        shape: BoxShape.circle,
-                      ),
-                      child: Image.asset('assets/icons/Google.png')),
+                    Container(
+                        width: 60,
+                        height: 60,
+                        decoration: BoxDecoration(
+                          color: Color(0xFF37373C),
+                          shape: BoxShape.circle,
+                        ),
+                        child: Image.asset('assets/icons/Google.png')),
                     SizedBox(
                       width: 15,
                     ),
@@ -233,7 +230,7 @@ class SignupScreen extends StatelessWidget {
                         child: Image.asset('assets/icons/facebookIcon.png')),
                   ],
                 ),
-              )
+              )// Social Sign Up Buttons
             ],
           ),
         ),
