@@ -1,3 +1,4 @@
+import 'package:class1/screens/dark_otp_verify_screen.dart';
 import 'package:class1/screens/dark_signup_screen_password.dart';
 import 'package:class1/screens/signin_screen.dart';
 import 'package:class1/screens/dark_signup_screen_emai_and_name.dart';
@@ -17,8 +18,9 @@ class MyApp extends StatelessWidget {
       title: "Flutter Homework Project",
       //home: SigninScreen(),
       //home: DarkSignupScreenEmaiAndName(),
-      home: DarkSignupScreenPassword(),
+      //home: DarkSignupScreenPassword(),
      // home: SignupScreen(),
+      home: DarkOtpVerifyScreen(),
     );
   }
 }

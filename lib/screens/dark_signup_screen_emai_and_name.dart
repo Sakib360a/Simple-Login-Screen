@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'dark_signup_screen_password.dart';
+
 class DarkSignupScreenEmaiAndName extends StatelessWidget {
   const DarkSignupScreenEmaiAndName({super.key});
 
@@ -8,7 +10,10 @@ class DarkSignupScreenEmaiAndName extends StatelessWidget {
     return Center(
       child: Scaffold(
         backgroundColor: Color(0xFF232528),
-        appBar: AppBar(backgroundColor: Colors.transparent,elevation: 0,),
+        appBar: AppBar(backgroundColor: Colors.transparent,elevation: 0,
+          iconTheme: IconThemeData(
+            color: Colors.white, // set your desired color here
+          ),),
         body: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -136,7 +141,12 @@ class DarkSignupScreenEmaiAndName extends StatelessWidget {
                           ),
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => DarkSignupScreenPassword()),
+                        );
+                      },
                       child: Text(
                         "Continue",
                         style: TextStyle(

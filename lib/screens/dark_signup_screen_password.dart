@@ -7,7 +7,11 @@ class DarkSignupScreenPassword extends StatelessWidget {
     return Center(
       child: Scaffold(
         backgroundColor: Color(0xFF232528),
-        appBar: AppBar(backgroundColor: Colors.transparent,elevation: 0,),
+        appBar: AppBar(backgroundColor: Colors.transparent,elevation: 0,
+          iconTheme: IconThemeData(
+            color: Colors.white,
+            size: 31,// set your desired color here
+          ),),
         body: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
